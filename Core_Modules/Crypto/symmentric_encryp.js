@@ -1,0 +1,5 @@
+//Symmetric encryption uses the same key for encryption and decryption.
+
+const crypto = require("crypto");
+const key = crypto.randomBytes(32);
+console.log(key.toString("hex"));
