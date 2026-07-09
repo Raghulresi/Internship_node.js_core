@@ -1,3 +1,7 @@
 hello 
 appended!! by appendFile
 appended!! by appendFile
+appended!! by appendFile
+appended!! by appendFile
+appended!! by appendFile
+appended!! by appendFileSync
