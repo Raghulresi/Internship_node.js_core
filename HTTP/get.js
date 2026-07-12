@@ -1,10 +1,10 @@
 const http = require("http");
 const port = 3030;
 http.createServer((req,res)=>
+{
+    if(req.method == "GET")
     {
-        if(req.method == "GET")
-    {
-        console.log("get method");
+        res.end("get method");
     }
 }).listen(port,"localhost",()=>
 {
