@@ -1,6 +1,6 @@
 const http = require("http");
 const port = 3030;
-http.createServer((req,res)=>
+http.createServer("",(req,res)=>
 {
     if(req.method == "GET")
     {
